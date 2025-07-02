@@ -23,7 +23,7 @@ import { SigmaMetricsDisplay } from './components/SigmaMetricsDisplay';
 import { MonthlyDataGrid } from './components/MonthlyDataGrid';
 import { CumulativeStatsDisplay } from './components/CumulativeStatsDisplay';
 import { exportToPdf, exportToExcel } from './services/pdfReportService';
-
+console.log("Reading Environment Variable:", import.meta.env.VITE_GEMINI_API_KEY);
 const currentYear = new Date().getFullYear();
 const years = Array.from({ length: 10 }, (_, i) => currentYear - i);
 
