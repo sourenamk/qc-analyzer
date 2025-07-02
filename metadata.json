@@ -1,0 +1,6 @@
+{
+  "name": "Medical Lab QC Calculator",
+  "description": "An application to calculate Quality Control statistics for medical lab tests and provide AI-powered interpretations using Gemini API.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
